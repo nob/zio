@@ -1,0 +1,6 @@
+#Redirect permanent / http://www.zionusbsm.com/intro/
+RewriteEngine on
+RewriteCond $1 !^(index\.php|img|robots\.txt)
+#RewriteCond $1 !^(index\.php|.*\.css|css/src/grid\.png|.*\.js|.*\.htc|img|robots\.txt)
+RewriteCond $1 !^(index\.php|.*\.css|css/src/grid\.png|.*\.js|img|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]

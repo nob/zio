@@ -1,0 +1,7 @@
+zionusbsm:
+  path: /var/www/zionusbsm/css
+  custom_layout:
+    column_count: 48
+    column_width: 10
+    gutter_width: 10
+

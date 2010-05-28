@@ -1,0 +1,27 @@
+.catch {
+    color: #FFFFFF;
+    font-family:"Lucida Grande",Tahoma,Arial,Sans-serif,sans;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding:10px;
+    position:absolute;
+    background:transparent;
+    /*AARRGGBB, 99=HEX(.6*255) */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#992E292A,endColorStr=#992E292A);
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#992E292A,endColorStr=#992E292A);
+    zoom: 1;
+}
+.exp {
+    color: #000000;
+    font-family:"Lucida Grande",Tahoma,Arial,Sans-serif,sans;
+    font-size: 1.2em;
+    padding:5px 10px;
+    position:absolute;
+    height: 296px;
+    width: 530px;
+    background:transparent;
+    /*AARRGGBB, B3=HEX(.7*255) */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#B3D2D6D2,endColorStr=#B3D2D6D2);
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#B3D2D6D2,endColorStr=#B3D2D6D2);
+    zoom: 1;
+}
