@@ -69,7 +69,7 @@ $(document).ready(function() {
 
 
     //start testimonials slide show
-    setInterval( "slideSwitch()", 7000 );
+    setInterval( "slideSwitch()", 10000 );
 
     //for testimonial navigation element.
     toggleTestimonialNavi();
