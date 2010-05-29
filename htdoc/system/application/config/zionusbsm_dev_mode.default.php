@@ -13,7 +13,7 @@
 |    the file (=text codes or message codes) will be displayed instead.
 |  
 */
-$config['dev_mode']  = TRUE;
+$config['dev_mode']  = FALSE;
 $config['dev_ctlrs'] = array('');
 
 $config['translating_mode'] = false;
