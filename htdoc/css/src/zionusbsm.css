@@ -452,3 +452,8 @@ div#copyright a{
 div#copyright p{
     margin: 0 0;
 }
+div#dev-info {
+    background-color:#F74A28;
+    color: #FFFFFF;
+    padding: 1px 20px;
+}

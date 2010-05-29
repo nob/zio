@@ -4,10 +4,8 @@
 | DEVELOPMENT MODE / TRANSLATING MODE 
 |--------------------------------------------------------------------------
 |  If dev_mode is set TRUE,  
-|  - Codeigniter Profiler will be enabled and the profiled information will be
-|    displayed at the bottom of every page.
-|  - Access to controlers defined $config['dev_ctlrs'] will be allowed. 
-|  - Server IP address will be displayed at page header. 
+|  - Access to controlers defined $config['dev_ctlrs'] will be allowed. //todo 
+|  - Server IP address will be displayed at page header. //todo 
 |
 |  If translating_mode is set TRUE,  
 |  - All texts and messages difined in files under application/language/ dir 
@@ -16,5 +14,6 @@
 |  
 */
 $config['dev_mode']  = TRUE;
-$config['dev_ctlrs'] = array('phpinfo', 'ci_email_test', 'scaff', '');
+$config['dev_ctlrs'] = array('');
+
 $config['translating_mode'] = false;

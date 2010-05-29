@@ -156,6 +156,16 @@ function toggleTestimonialNavi() {
 
 </script>
 <!-- Google Analytics End-->
+<?php
+if ((isset($this->config) AND $this->config->item("dev_mode")))
+{
+?>
+<div id="dev-info">
+    <span>SERVER IP: <?php echo $_SERVER['SERVER_ADDR']; ?></span>
+</div>
+<?php
+}
+?>
 <div id="aboveGround">
 <div class="container">
     <div id="header">
