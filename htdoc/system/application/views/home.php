@@ -277,7 +277,7 @@ function toggleTestimonialNavi() {
             <div class="slide active-sd">
                 <div class="speech curved-s">%%T_023%%</div>
                 <p class="speaker">
-                    <a title="Visit" href="http://kdkdkdkdk.com">
+                    <a title="">
                         <span class="speakerName">%%T_024%%</span>
                         <span class="speakerOrg">%%T_025%%</span>
                     </a>
@@ -286,7 +286,7 @@ function toggleTestimonialNavi() {
             <div class="slide">
                 <div class="speech curved-s">%%T_026%%</div>
                 <p class="speaker">
-                    <a title="Visit" href="http://kdkdkdkdk.com">
+                    <a title="Visit" href="http://www.koholasys.com">
                         <span class="speakerName">%%T_027%%</span>
                         <span class="speakerOrg">%%T_028%%</span>
                     </a>
@@ -295,7 +295,7 @@ function toggleTestimonialNavi() {
             <div class="slide">
                 <div class="speech curved-s">%%T_029%%</div>
                 <p class="speaker">
-                    <a title="Visit" href="http://www.koholasys.com">
+                    <a title="">
                         <span class="speakerName">%%T_030%%</span>
                         <span class="speakerOrg">%%T_031%%</span>
                     </a>
