@@ -1,6 +1,10 @@
 #Redirect permanent / http://www.zionusbsm.com/intro/
 RewriteEngine on
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^zionusbsm\.com$ [NC]
+RewriteRule ^(.*)$ http://www.zionusbsm.com/$1 [R=301,L]
 RewriteCond $1 !^(index\.php|img|robots\.txt)
 #RewriteCond $1 !^(index\.php|.*\.css|css/src/grid\.png|.*\.js|.*\.htc|img|robots\.txt)
 RewriteCond $1 !^(index\.php|.*\.css|css/src/grid\.png|.*\.js|img|robots\.txt)
 RewriteRule ^(.*)$ /index.php/$1 [L]
+
