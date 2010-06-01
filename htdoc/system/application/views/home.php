@@ -326,7 +326,7 @@ if ((isset($this->config) AND $this->config->item("dev_mode")))
             <div id="copyright">
                 <p>Copyright © 2010 Zionus BSM All Rights Reserved.  </p>
                 <p>XHTML, CSS, Site Design and Programming by <a href="http://www.koholasys.com">Kohola Systems, Inc.</a></p>
-                <p>Special thanks to photographers for providing their works under <a href="http://www.flickr.com/creativecommons/">CC licence</a>.</p>
+                <p>Special thanks to photographers for providing their works under <a href="http://www.flickr.com/creativecommons/">CC license</a>.</p>
             </div>
         </div>
     </div>
