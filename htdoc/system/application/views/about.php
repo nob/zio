@@ -1,11 +1,44 @@
+<script type="text/javascript">
+$(function() {
+    $("#article1").overlay({
+        expose: '#BDB9B9', 
+        top: 0,
+        left: 0,
+        onBeforeLoad: function() {
+            // grab wrapper element inside content
+            var wrap = this.getOverlay().find(".contentWrap");
+            // load the page specified in the trigger
+            wrap.load(this.getTrigger().attr("href"));
+        }
+    });
+    $("#article2").overlay({
+        expose: '#BDB9B9', 
+        top: 0,
+        left: 0,
+        onBeforeLoad: function() {
+            // grab wrapper element inside content
+            var wrap = this.getOverlay().find(".contentWrap");
+            // load the page specified in the trigger
+            wrap.load(this.getTrigger().attr("href"));
+        }
+    });
+});
+</script>
 <div class="item">
-    <div class="frame curved">
+    <div class="frame curved" id="frame-about">
         <div id="map" class="pic curved">
             <div id="aboutus" class="clearfix">
                 <div class="span-16">
                     <h2>%%T_001%%</h2>
                     <p>%%T_002%%</p>
                     <p>%%T_003%%</p>
+                    <div class="notice">
+                    <h4><strong>%%T_005%%</strong></h4>
+                    <ul>
+                    <li><a href="<?php echo site_url('article/index/hokubei');?>" rel="#overlay2" id="article1">%%T_006%%</a></li>
+                    <li><a href="<?php echo site_url('article/index/logo');?>" rel="#overlay2" id="article2">%%T_007%%</a></li>
+                    <ul>
+                    </div>
                 </div>
                 <div class="span-20 prepend-top last">
                     <h3>%%T_004%%</h3>
@@ -14,4 +47,12 @@
             </div>
         </div>
     </div>
+    <!-- overlayed element -->
+    <div class="apple_overlay" id="overlay2">
+
+    <!-- the external content is loaded inside this tag -->
+    <div class="contentWrap"></div>
+
+</div
 </div>
+

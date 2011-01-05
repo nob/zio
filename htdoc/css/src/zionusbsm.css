@@ -316,7 +316,7 @@ div#footer {
 }
 
 
-#overlay { 
+#overlay, #overlay2 { 
     /* must be initially hidden */ 
     display:none; 
      
@@ -366,17 +366,39 @@ div#footer {
     border:none;
 }
 #map {
-    background-color: white;
+    background-color: #FFF6EE;
+}
+#frame-about{
+    background-color: #E3C7B0;
+    border-color: #E3C7B0;
+
+}
+#map h2, #map h3, #map h4{
+    color: #706E6F; !important
+}
+#map p{
+    color: black;
+}
+#map a {
+    color: blue; !important
+    font-size:1em;
+    font-weight:bold;
 }
 #aboutus {
     padding: 10px;
 }
+/*
+div.notice {
+    padding: 10px;
+    background-color: green;
+}
+    */
 #map h3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 #map p {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 div#footer h3{
     font-weight: bold;
