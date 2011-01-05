@@ -5,7 +5,7 @@
 |--------------------------------------------------------------------------
 |  If dev_mode is set TRUE,  
 |  - Access to controlers defined $config['dev_ctlrs'] will be allowed. //todo 
-|  - Server IP address will be displayed at page header. //todo 
+|  - Server IP address will be displayed at page header.  
 |
 |  If translating_mode is set TRUE,  
 |  - All texts and messages difined in files under application/language/ dir 
