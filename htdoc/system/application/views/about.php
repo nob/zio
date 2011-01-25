@@ -2,8 +2,8 @@
 $(function() {
     $("#article1").overlay({
         expose: '#BDB9B9', 
-        top: 0,
-        left: 0,
+        top: 30,
+        left: 20,
         onBeforeLoad: function() {
             // grab wrapper element inside content
             var wrap = this.getOverlay().find(".contentWrap");
@@ -13,8 +13,8 @@ $(function() {
     });
     $("#article2").overlay({
         expose: '#BDB9B9', 
-        top: 0,
-        left: 0,
+        top: 30,
+        left: 20,
         onBeforeLoad: function() {
             // grab wrapper element inside content
             var wrap = this.getOverlay().find(".contentWrap");
@@ -35,8 +35,8 @@ $(function() {
                     <div class="notice">
                     <h4><strong>%%T_005%%</strong></h4>
                     <ul>
-                    <li><a href="<?php echo site_url('article/index/hokubei');?>" rel="#overlay2" id="article1">%%T_006%%</a></li>
-                    <li><a href="<?php echo site_url('article/index/logo');?>" rel="#overlay2" id="article2">%%T_007%%</a></li>
+                    <li><a href="<?php echo site_url('article/index/hokubei');?>" rel="#overlay-article" id="article1">%%T_006%%</a></li>
+                    <li><a href="<?php echo site_url('article/index/sportsj');?>" rel="#overlay-article" id="article2">%%T_007%%</a></li>
                     <ul>
                     </div>
                 </div>
@@ -47,12 +47,5 @@ $(function() {
             </div>
         </div>
     </div>
-    <!-- overlayed element -->
-    <div class="apple_overlay" id="overlay2">
-
-    <!-- the external content is loaded inside this tag -->
-    <div class="contentWrap"></div>
-
-</div
 </div>
 

@@ -32,7 +32,7 @@ $(document).ready(function() {
         top: '3%',
         onBeforeLoad: function() { 
             // grab wrapper element inside content 
-            var wrap = this.getContent().find("#contentWrap"); 
+            var wrap = this.getContent().find(".contentWrap"); 
             // load the page specified in the trigger 
             wrap.load(this.getTrigger().attr("href")); 
         }, 
@@ -334,7 +334,12 @@ if ((isset($this->config) AND $this->config->item("dev_mode")))
 <!-- overlayed element -->
 <div id="overlay"> 
     <!-- the external content is loaded inside this tag --> 
-    <div id="contentWrap"></div> 
+    <div class="contentWrap"></div> 
+</div>
+<!-- overlayed element -->
+<div id="overlay-article">
+    <!-- the external content is loaded inside this tag -->
+    <div class="contentWrap"></div>
 </div>
 </body>
 </html>

@@ -315,22 +315,44 @@ div#footer {
     text-indent: 1em;
 }
 
-
-#overlay, #overlay2 { 
+#overlay { 
     /* must be initially hidden */ 
     display:none; 
      
     /* styling */ 
     background-color:#F6E8B1;
     border: 10px solid #677E52;
-    height:560px; 
     width: 640px;
+    height:560px; 
      
     /* CSS3 styling for latest browsers */ 
     -moz-box-shadow:0 0 90px #000; 
     -webkit-box-shadow: 0 0 90px #000;     
 } 
- 
+
+#overlay-article, #overlay_article2 {
+    /* must be initially hidden */ 
+    display:none; 
+     
+    /* styling */ 
+    background-color:#F6E8B1;
+    border: 6px solid #677E52;
+     
+    /* CSS3 styling for latest browsers */ 
+    -moz-box-shadow:0 0 90px #000; 
+    -webkit-box-shadow: 0 0 90px #000;     
+}
+
+#overlay-article {
+    width:964px; 
+    height:831px; 
+}
+
+#overlay-article2 {
+    width:1086px; 
+    height:832px; 
+}
+
 /* close button positioned on upper right corner */ 
 #overlay .close { 
     z-index:20000; 
@@ -339,13 +361,34 @@ div#footer {
     right:-15px; 
     top:-15px; 
     cursor:pointer; 
-    height:35px; 
     width:35px; 
+    height:35px; 
+} 
+
+#overlay-article .close, #overlay-article2.close { 
+    z-index:20000; 
+    background-image:url(../../img/close.png); 
+    position:absolute; 
+    left:-15px; 
+    top:-15px; 
+    cursor:pointer; 
+    width:35px; 
+    height:35px; 
 } 
  
-#contentWrap { 
-    height:560px; 
+#overlay .contentWrap { 
     width:640px; 
+    height:560px; 
+}
+
+#overlay-article .contentWrap { 
+    width:964px; 
+    height:831px; 
+}
+
+#overlay-article2 .contentWrap { 
+    width:1086px; 
+    height:832px; 
 }
 
 #wufoo{
