@@ -3,6 +3,7 @@
 <head>
 <title>Zionus BSM</title>
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+<meta name="google-site-verification" content="AUr9GMup6HoHDN-2-1vhljie9NTEkcMA6Eoa-B9qYPU" />
 <link rel="shortcut icon" type="image/x-icon" href="/img/fav1.ico">
 <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection">
 <link rel="stylesheet" href="css/print.css" type="text/css" media="print">	
