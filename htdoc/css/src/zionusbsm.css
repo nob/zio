@@ -225,12 +225,14 @@ div#footer {
     -webkit-border-radius:10px; /* Safari, Chrome */
     -khtml-border-radius: 10px; /* KHTML */
     border-radius: 10px; /* Opera 10.50 beta and other CSS3 compatible browsers */
+    behavior: url(PIE.php);
 }
 .curved-s {
     -moz-border-radius:5px; /* FireFox */
     -webkit-border-radius:5px; /* Safari, Chrome */
     -khtml-border-radius: 5px; /* KHTML */
     border-radius: 5px; /* Opera 10.50 beta and other CSS3 compatible browsers */
+    behavior: url(PIE.php);
 }
 .vivid {
     color: #38E046;
@@ -505,7 +507,7 @@ span.speakerOrg {
     margin-left:0.5em;
 }
 div#copyright {
-    margin-top: 50px;
+    margin-top: 90px;
     text-align: right;
     color:#8D929E;
     font-size: 0.75em;
