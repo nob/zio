@@ -68,6 +68,13 @@ $(document).ready(function() {
         }
     );
 
+    //bind click event.
+    for (i=1; i<6; i++) {
+        $('#pic' + i).click(function(){
+            num = $(this).attr('id').substr(3, 1);
+            $('#n' + num).trigger('click');
+        });
+    }
 
     //start testimonials slide show
     setInterval( "slideSwitch()", 10000 );

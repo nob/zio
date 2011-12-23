@@ -162,6 +162,7 @@ div#footer {
     padding: 0px;
     margin: 0px;
     border 1px solid #000000; 
+    cursor: pointer;
 }
 #pic1 {
     background: #000000 url(../../img/bills.jpg) no-repeat scroll 80% top; */
@@ -407,11 +408,11 @@ div#footer {
     border:none;
 }
 #map {
-    background-color: #FFF6EE;
+    background-color: #F2EFE9;
 }
 #frame-about{
-    background-color: #E3C7B0;
-    border-color: #E3C7B0;
+    background-color: #F2EFE9;
+    border-color: #000000;
 
 }
 #map h2, #map h3, #map h4{
