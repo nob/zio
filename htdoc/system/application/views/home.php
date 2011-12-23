@@ -7,7 +7,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="/img/fav1.ico">
 <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection">
 <link rel="stylesheet" href="css/print.css" type="text/css" media="print">	
-<link rel="stylesheet" href="css/src/zionusbsm.css" type="text/css" media="screen, projection">	
+<link rel="stylesheet" href="css/src/zionusbsm-v2.css" type="text/css" media="screen, projection">	
 <!--[if lt IE 8]>
 <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection">
 <![endif]-->
@@ -69,11 +69,12 @@ $(document).ready(function() {
     );
 
     //bind click event.
+    handler = function(){
+        num = $(this).attr('id').substr(3, 1);
+        $('#n' + num).trigger('click');
+    }
     for (i=1; i<6; i++) {
-        $('#pic' + i).click(function(){
-            num = $(this).attr('id').substr(3, 1);
-            $('#n' + num).trigger('click');
-        });
+        $('#pic' + i).click(handler);
     }
 
     //start testimonials slide show
@@ -106,6 +107,11 @@ function showExp () {
         $(".exp").css("filter", "progid:DXImageTransform.Microsoft.gradient(startColorStr=#B3D2D6D2,endColorStr=#B3D2D6D2)"); 
         $(".exp").fadeIn(2000);
     }, 800);
+
+    for (i=1; i<6; i++) {
+        $('#pic' + i).unbind('click', handler);
+        $('#pic' + i).css('cursor', 'default');
+    }
 }
 
 appended = false;

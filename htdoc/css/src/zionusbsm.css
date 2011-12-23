@@ -245,11 +245,14 @@ div#footer {
     height: 296px;
     width: 532px;
     display: none;
+    z-index: 100;
 }
 .in_prev, .in_next {
     height: 18px;
     width: 45px;
     background-image: url(../../img/arrows.png); 
+    z-index: 200;
+    cursor: pointer;
 }
 .in_prev {
     background-position: 0px 0px; 
