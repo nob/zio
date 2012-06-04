@@ -1,12 +1,7 @@
 User-agent: *
 Sitemap: http://www.zionusbsm.com/sitemap.xml
 Allow: /
-Disallow: /css/
-Disallow: /img/
 Disallow: /system/
 Disallow: /index.php
-Disallow: /cufon-yui.js
-Disallow: /jquery.tools.min.js
 Disallow: /PIE.php
-Disallow: /tools.scrollable.autoscroll-1.0.1.js
 
